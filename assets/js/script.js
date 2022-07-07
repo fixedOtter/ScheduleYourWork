@@ -27,6 +27,7 @@ $(document).ready(function(){
     $(`#t${i} .description`).val(localStorage.getItem(`t${i}`));
   }
 
+  // main function to run it all
   function timeMain() {
     // grabs just the current hour
     let currentHour = stringTime.toFormat(`H`);
@@ -35,8 +36,6 @@ $(document).ready(function(){
     $(`.time-block`).each(function() {
       // declares the time of the current time-block element
       let calTime = parseInt($(this).attr(`id`).split(`t`)[1]);
-
-      console.log(calTime, currentHour);
   
       // checks and sets if past elements
       if (calTime < currentHour) {
@@ -57,11 +56,7 @@ $(document).ready(function(){
     })
   }
 
-
   timeMain();
-  // testing to make sure it's grabbing the correct local time
-  // console.log(currentTime.toLocaleString(DateTime.DATETIME_MED));
-
 
 }); 
 
