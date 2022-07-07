@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- linking stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <!-- header for the schedules -->
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+
+    <!-- container for each hour timeblock -->
+    <div class="container">
+      <section id="t8" class="row time-block">
+        <div class="col-md-1 hour">8 AM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="button saveBtn col-md-1">save</button>
+      </section>
+      <section id="t9" class="row time-block">
+        <div class="col-md-1 hour">9 AM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="button saveBtn col-md-1">save</button>
+      </section>
+      <section id="t10" class="row time-block">
+        <div class="col-md-1 hour">10 AM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="button saveBtn col-md-1">save</button>
+      </section>
+      <section id="t11" class="row time-block">
+        <div class="col-md-1 hour">11 AM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="button saveBtn col-md-1">save</button>
+      </section>
+      <section id="t12" class="row time-block">
+        <div class="col-md-1 hour">12 PM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="button saveBtn col-md-1">save</button>
+      </section>
+      <section id="t13" class="row time-block">
+        <div class="col-md-1 hour">1 PM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="button saveBtn col-md-1">save</button>
+      </section>
+      <section id="t14" class="row time-block">
+        <div class="col-md-1 hour">2 PM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="button saveBtn col-md-1">save</button>
+      </section>
+      <section id="t15" class="row time-block">
+        <div class="col-md-1 hour">3 PM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="button saveBtn col-md-1">save</button>
+      </section>
+      <section id="t16" class="row time-block">
+        <div class="col-md-1 hour">4 PM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="button saveBtn col-md-1">save</button>
+      </section>
+      <section id="t17" class="row time-block">
+        <div class="col-md-1 hour">5 PM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="button saveBtn col-md-1">save</button>
+      </section>
+      <section id="t18" class="row time-block">
+        <div class="col-md-1 hour">6 PM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="button saveBtn col-md-1">save</button>
+      </section>
+
+
+
+
+    </div>
+    <!-- rip to moment -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/luxon@2.4.0/build/global/luxon.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
